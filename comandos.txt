@@ -4,7 +4,7 @@ estes comandos podem conter flags
 npm i <nome_do_pacote> flags
 
 flag são instruções de configuração
---save - salva o pacote para rodas em tempo de execução
+--save - salva o pacote para rodar em tempo de execução
 --save-dev ou -D instala o pacote apenas no ambiente de desenvolvimento
 
 npm install ou npm i - verifica e instala as dependênncias listadas no package.json
