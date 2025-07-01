@@ -4,7 +4,9 @@
   "description": "código de estudos de node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsc --watch",
+    "start": "node dist/tipos.js",
+    "build": "tsc"
   },
   "author": "Marcos Vinicius Peretro Júnior",
   "license": "ISC",
@@ -14,6 +16,5 @@
   "devDependencies": {
     "chalk": "^5.4.1",
     "nodemon": "^3.1.10"
-  },
-  "type": "module"
+  }
 }
